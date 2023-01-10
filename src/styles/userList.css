@@ -1,0 +1,27 @@
+.user_section {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px 30px;
+}
+.user {
+  width: 200px;
+  height: 200px;
+  padding: 10px 30px;
+  border: 1px solid black;
+  box-shadow: 5px 10px 10px grey;
+  /* background-image: linear-gradient(to bottom right, skyblue, pink); */
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.user h3,
+h5 {
+  margin: 0px;
+}
+button {
+  margin: 20px 0px;
+}
+.userList h1 {
+  text-align: center;
+}

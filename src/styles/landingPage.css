@@ -1,0 +1,42 @@
+.landingpage {
+  display: flex;
+  background: url("/public/images/lib3.avif");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 50%; */
+  /* margin: 0px; */
+}
+.selectLoginType {
+  height: 70%;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.764);
+  /* border: 1px solid lightslategrey; */
+}
+.selectLoginType h1 {
+  color: white;
+}
+.loginpage {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 15%;
+}
+.btn1 img {
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+.btn1 button {
+  border: 2px solid #00047a;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+}
+.btn2 button {
+  border: 2px solid #850001;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+}

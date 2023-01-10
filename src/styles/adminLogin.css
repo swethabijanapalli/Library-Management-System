@@ -1,0 +1,73 @@
+.adminlogin {
+  background: url("/public/images/lib3.avif");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form-container-card {
+  width: 320px;
+  height: 420px;
+  background: #000;
+  opacity: 0.9;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 50px 40px;
+}
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+.form-container-card h1 {
+  margin: 0px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.form_input p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.form_input input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: white;
+}
+.loginbtn {
+  border: none;
+  outline: none;
+  /* height: 30px; */
+  background-color: #00047a;
+  color: white;
+  font-size: 18px;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+.loginbtn:hover {
+  cursor: pointer;
+  background-color: blue;
+  /* color: black; */
+}
+.form_input a {
+  /* text-decoration: none; */
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+.form_input a:hover {
+  cursor: pointer;
+  color: white;
+}
