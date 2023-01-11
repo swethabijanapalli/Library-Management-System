@@ -1,38 +1,38 @@
-.adminNavbar {
+.userNavbar {
   display: flex;
   justify-content: space-between;
   background-color: cadetblue;
   /* background-image: linear-gradient(
-    to bottom right,
-    rgb(103, 164, 188),
-    rgb(230, 154, 167)
-  ); */
+      to bottom right,
+      rgb(103, 164, 188),
+      rgb(230, 154, 167)
+    ); */
   align-items: center;
   height: 80px;
 }
-.list ul {
+.user-list ul {
   display: flex;
   align-items: center;
 }
-.list li {
+.user-list li {
   display: flex;
   justify-content: center;
   margin: 10px 15px;
 }
-.list a {
+.user-list a {
   text-decoration: none;
   color: black;
   /* font-weight: bold; */
 }
-.lgbtn {
+.user-lgbtn {
   padding: 5px;
   border: 2px solid black;
   background-color: transparent;
   font-weight: bold;
 }
 /* .avatar2 {
-  width: 90px;
-  height: 90px;
-  border-radius: 50px;
-  position: absolute;
-} */
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    position: absolute;
+  } */

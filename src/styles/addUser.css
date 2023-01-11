@@ -1,29 +1,30 @@
-.addbookHome {
-  height: 150vh;
+.adduserHome {
+  height: 80vh;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  margin-top: 20px;
+  align-items: center;
+  /* margin-top: 50px; */
 }
-.addBook {
+.addUser {
   width: 400px;
-  height: 600px;
+  height: 280px;
   border-radius: 5px;
+  border: 1px solid lightgrey;
   background-color: rgba(169, 169, 169, 0.647);
   /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
   color: black;
   padding: 15px 40px;
 }
-.addBook h1 {
+.addUser h1 {
   margin: 0px;
   padding: 0 0 10px;
   text-align: center;
   font-size: 22px;
 }
-.form {
+.user_form {
   text-align: center;
 }
-.form input {
+.user_form input {
   width: 100%;
   margin-bottom: 10px;
   border: 1px solid black;
@@ -31,20 +32,13 @@
   height: 35px;
   color: black;
 }
-.form textarea {
-  width: 100%;
-  height: 130px;
-  margin-bottom: 10px;
-  border: 1px solid black;
-  border-radius: 3px;
-}
-.form button {
+.user_form button {
   margin: 10px 0px;
   width: 20%;
   padding: 5px 0px;
   border: 1px solid black;
   background-color: white;
 }
-.form button:hover {
+.user_form button:hover {
   background-color: beige;
 }

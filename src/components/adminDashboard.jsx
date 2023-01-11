@@ -1,6 +1,6 @@
 const AdminDashboard = () => {
   return (
-    <div className="admindashboard">
+    <div className="adminDashboard">
       <h1 style={{ textAlign: "center" }}>Welcome to Admin Home Page</h1>
     </div>
   );
